@@ -4,7 +4,7 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "dev": "NODE_ENV=development tsx watch server/_core/index.ts",
+    "dev": "NODE_ENV=development tsx watch server/index.ts",
     "build:client": "vite build",
     "build:server": "node esbuild.config.js",
     "build": "pnpm run build:client && pnpm run build:server",
@@ -151,7 +151,7 @@
       "tailwindcss>nanoid": "3.3.7"
     }
   },
-  "description": "Redroom â Open-Source Geopolitical Intelligence Platform by Owlink.ai",
+  "description": "Redroom — Open-Source Geopolitical Intelligence Platform by Owlink.ai",
   "homepage": "https://redroom.live",
   "repository": {
     "type": "git",
