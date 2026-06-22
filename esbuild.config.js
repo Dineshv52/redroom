@@ -8,7 +8,7 @@ const require = createRequire(import.meta.url);
 const pkg = require("./package.json");
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const entry = resolve(__dirname, "server/_core/index.ts");
+const entry = resolve(__dirname, "server/index.ts");
 
 if (!existsSync(entry)) {
   console.error(`\n[esbuild.config] Entry not found: ${entry}`);
